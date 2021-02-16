@@ -1,11 +1,12 @@
-body {
-    margin: 0 auto;
-}
 #main {
     border: 2px solid #e3e3e3;
-    width: 100%;
+    width: 784px;
     height: 100%;
     padding: 56px 57px 58px;
+    margin: 0 auto;
+}
+#section-header {
+    width: 670px;
 }
 .border-bottom {
     padding-bottom: 4px;
@@ -42,7 +43,7 @@ body {
     height: auto;
     */
     width: 663px;
-    height: 437px;
+    height: 385px;
     border-left: 2px solid #ececec;
     box-shadow: -1px 0 0 #f2f2f2;
     box-shadow: 1px 0 0 #f9f9f9 inset;
@@ -50,6 +51,7 @@ body {
 }
 #section-top {
     display: inline-block;
+    margin-left: 20px;
 }
 #section-top::after {
     content: "";
@@ -88,4 +90,18 @@ body {
 .recruitment-procedure {
     padding-bottom: 12px;
     border-bottom: 1px solid #efefef;
+}
+.box-01-05 {
+    margin-top: 15px;
+}
+.box-01-05::after {
+    content: "";
+    clear: left;
+}
+li {
+    margin-right: 2px;
+    float: left;
+}
+.main-bottom-p {
+    margin: 35px 230px 0 10px;
 }
