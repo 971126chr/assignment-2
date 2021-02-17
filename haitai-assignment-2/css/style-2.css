@@ -1,5 +1,5 @@
 * {
-    font-family: "돋음", sans-serif;
+    font-family: "Dotum", sans-serif;
     font: 11px;
     color: #9b9b9b;
     /*
@@ -7,6 +7,10 @@
     */
 }
 body {
+    /*
+    width: 790px;
+    height: 100%;
+    */
     margin: 0 auto;
 }
 #main {
@@ -54,11 +58,11 @@ body {
     box-shadow: -1px 0 0 #f2f2f2;
     box-shadow: 1px 0 0 #f9f9f9 inset;
     padding: 30px 95px 30px 30px;
-    margin-top: 30px; 
+    margin-top: 30px;
+    position: relative;
 }
 .section-p-1 {
-    position: relative;
-    height: 85px;
+    padding-bottom: 20px;
     border-bottom: 1px dotted #cacaca;
 }
 .image-margin {
@@ -66,9 +70,45 @@ body {
     margin-right: 22px;
 
 }
-.section-text-1 {
+.list-1,dl,.list-2 {
+    list-style-image: url("../images/ul-image.png");
     display: inline-block;
     position: absolute;
-    top: 0;
     vertical-align: middle;
+}
+.section-p-2 {
+    padding: 20px 0;
+    border-bottom: 1px dotted #cacaca;
+}
+.section-p-3 {
+    padding: 29px 0 45px;
+    border-bottom: 1px dotted #cacaca;
+}
+/*
+.text-indent {
+    
+}
+
+.p-margin-1 {
+    margin-left: 91px;
+}
+.p-margin-2 {
+    margin-left: 119px;
+}
+*/
+.section-p-4 {
+    padding-top: 30px;
+}
+.dt-style {
+    float: left;
+}
+.last-p-top {
+    display: inline-block;
+    position: absolute;
+    margin: 1px 0 24px;
+}
+.list-2 {
+    position: relative;
+    top: 41px;
+    left: 20px;
 }
