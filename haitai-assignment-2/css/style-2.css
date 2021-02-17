@@ -1,9 +1,23 @@
+* {
+    font-family: "돋음", sans-serif;
+    font: 11px;
+    color: #9b9b9b;
+    /*
+    box-sizing: border-box;
+    */
+}
+body {
+    margin: 0 auto;
+}
 #main {
-    background: url("../images/main-border.png") repeat-x;
-    background-repeat: repeat-y;
+    border: 1px solid #e3e3e3;
+    box-shadow: 1px 1px 1px #f1f1f1 inset;
+    /*
+    border-image: url("../images/main-border.png") round;
+    */
     padding: 57px 57px 54px;
 }
-#border-bottom {
+.border-bottom {
     padding-bottom: 4px;
     border-bottom: 1px solid #efefef;
     box-shadow: 1px 1px #fcfcfc;
@@ -12,17 +26,49 @@
     background-position: bottom;
     */
 }
-#org-round {
+.border-bottom::after {
+    content: "";
+    clear: right;
+}
+.org-round {
     display: inline-block;
     background: url("../images/org-round.png");
     width: 16px;
     height: 16px;
 }
-#HRM {
+.HRM {
     display: inline-block;
     margin-left: 28px;
 }
-#text-grey-org-HTM {
+.text-grey-org-HTM {
     display: block;
     float: right;
+}
+.section-header-p {
+    margin-top: 28px;
+}
+#section {
+    width: 670px;
+    height: 633px;
+    border: 3px solid #ececec;
+    box-shadow: -1px 0 0 #f2f2f2;
+    box-shadow: 1px 0 0 #f9f9f9 inset;
+    padding: 30px 95px 30px 30px;
+    margin-top: 30px; 
+}
+.section-p-1 {
+    position: relative;
+    height: 85px;
+    border-bottom: 1px dotted #cacaca;
+}
+.image-margin {
+    display: inline-block;
+    margin-right: 22px;
+
+}
+.section-text-1 {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
 }
