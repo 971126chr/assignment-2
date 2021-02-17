@@ -1,3 +1,28 @@
 #main {
+    background: url("../images/main-border.png") repeat-x;
+    background-repeat: repeat-y;
     padding: 57px 57px 54px;
+}
+#border-bottom {
+    padding-bottom: 4px;
+    border-bottom: 1px solid #efefef;
+    box-shadow: 1px 1px #fcfcfc;
+    /*
+    background: url("../images/border-bottom.png") repeat-x;
+    background-position: bottom;
+    */
+}
+#org-round {
+    display: inline-block;
+    background: url("../images/org-round.png");
+    width: 16px;
+    height: 16px;
+}
+#HRM {
+    display: inline-block;
+    margin-left: 28px;
+}
+#text-grey-org-HTM {
+    display: block;
+    float: right;
 }
