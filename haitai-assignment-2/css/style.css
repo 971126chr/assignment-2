@@ -1,9 +1,13 @@
+body {
+    max-width: 1200px;
+    max-height: 1006px;
+    margin: 0 auto;
+}
 #main {
     border: 2px solid #e3e3e3;
     min-width: 784px;
     min-height: 689px;
     padding: 56px 57px 58px;
-    margin: 0 auto;
 }
 #section-header {
     min-width: 670px;
