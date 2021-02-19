@@ -46,7 +46,11 @@ body {
     width: auto;
     height: auto;
     */
+    max-width: 670px;
+    /*
+    max-height: 443px;
     min-width: 663px;
+    */
     min-height: 385px;
     border-left: 2px solid #ececec;
     box-shadow: -1px 0 0 #f2f2f2;

@@ -91,19 +91,18 @@ body {
 .section-p-3 {
     min-width: 549px;
     min-height: 149px;
-    padding: 29px 0 45px;
+    padding: 29px 30px 45px 0;
     border-bottom: 1px dotted #cacaca;
 }
-/*
-.text-indent {
-    
-}
-*/
 .section-p-4 {
     min-width: 358px;
     min-height: 194px;
     padding-top: 30px;
     position: relative;
+}
+dl::after {
+    content: "";
+    clear: left;
 }
 .dt-style {
     float: left;
